@@ -8,10 +8,10 @@
 <body>
    <div class="container">
         <form class="form-group" action="http://formspree.io/fandressouza@gmail.com" method="POST">
-            <input class="form-control" type="text" name="name" placeholder="Enter your name">
-            <input class="form-control" type="email" name="_replyto" placeholder="Enter your e-mail">
+            <input class="form-control" type="text" name="name" placeholder="Enter your name" required>
+            <input class="form-control" type="email" name="_replyto" placeholder="Enter your e-mail" required>
             <input type="text" name="_gotcha" style="display:none" />
-            <textarea class="form-control" name="body_message" id="body_message" cols="30" rows="5" placeholder="Enter your message here!"></textarea>
+            <textarea class="form-control" name="body_message" id="body_message" cols="30" rows="5" placeholder="Enter your message here!" required></textarea>
             <input class="btn btn-success btn-block" type="submit" value="Send">
         </form>
     </div>
